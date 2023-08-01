@@ -19,8 +19,9 @@ root.render(
                   {/* index 1 phần đặc biệt */}
                 <Route index element={<HomePage />} />
                     <Route path="/users" element={<User />} />
-                    <Route path="/admins" element={<Admin />} />
                 </Route>
+                
+                <Route path="/admins" element={<Admin />} />
             </Routes>
         </BrowserRouter>
         {/* </React.StrictMode> */}
